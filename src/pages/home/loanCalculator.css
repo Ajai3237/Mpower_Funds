@@ -1,0 +1,281 @@
+.loanCalculatorSection {
+    padding: 100px 0;
+}
+
+.loanCalculatorSection .heading {
+    margin-bottom: 48px;
+}
+
+.loanCalculator {
+    background-image: url(../../assets/icons/loanBack.png);
+    border-radius: 12px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculatorArea {
+    padding: 55px;
+    flex: 1;
+}
+
+.calculatorArea h1 {
+    font-size: 24px;
+    color: var(--bsColor11);
+    margin-bottom: 76px;
+}
+
+.bttnBox {
+    margin-top: 7px;
+}
+
+.LoanBtn {
+    color: var(--fontColor);
+    border-radius: 6px;
+    padding: 18px;
+    border: 1px solid #CCCCCC;
+    background-color: transparent;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    justify-content: center;
+}
+
+.LoanBtn.active {
+    background-image: linear-gradient(0deg, #1F2E46 0%, #415474 100%);
+    color: var(--bs-white);
+    box-shadow: 0px 8px 20px 0px #22324A87;
+}
+
+.rangeBox {
+    margin-bottom: 82px;
+    margin-top: 56px;
+}
+
+.rangeBox label {
+    color: var(--fontColor);
+}
+
+.custom-range {
+    height: 9px;
+    background-color: #D2D4D8;
+    border-radius: 5px;
+    max-width: 561px;
+}
+
+.form-range::-webkit-slider-runnable-track {
+    background-color: transparent;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background-color: var(--bs-white);
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+    box-shadow: 0px 8px 10px 0px #BDC5D6CC;
+}
+
+.custom-range::-moz-range-thumb {
+    background-color: var(--bs-white);
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+    box-shadow: 0px 8px 10px 0px #BDC5D6CC;
+}
+
+.amount-box input[type="number"] {
+    max-width: 105px;
+}
+
+.amount-box {
+    width: 153px;
+}
+
+.input-group-text {
+    min-width: 40px;
+    text-align: center;
+}
+
+.dateBox {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+}
+
+.dateBox input {
+    border: 1px solid #CCCCCC80;
+    border-radius: 6px;
+    height: 45px;
+}
+
+.dateBox .react-datepicker__day--selected {
+    background-color: var(--bsColor);
+}
+
+.react-datepicker__header {
+    background-image: linear-gradient(0deg, #1F2E46 0%, #415474 100%);
+}
+
+.dateBox h2.react-datepicker__current-month,
+.dateBox .react-datepicker__day-name {
+    color: var(--bs-white);
+}
+
+.dateBox .react-datepicker__day--keyboard-selected:not([aria-disabled=true]):hover {
+    background-color: var(--bsColor);
+    color: var(--bs-white);
+}
+
+.dateBox .react-datepicker__day--keyboard-selected {
+    background-color: var(--bsColor11);
+    color: var(--bs-white);
+}
+
+.dateBox .react-datepicker {
+    box-shadow: 0px 8px 20px 0px #22324A87;
+}
+
+.dateBox .react-datepicker__close-icon::after {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+    background-color: var(--bsColor11);
+}
+
+.resultDiv {
+    max-width: 458px;
+    background-color: #F1F7FF;
+    padding: 0px 40px;
+    width: 100%;
+}
+
+.legandText,
+.resultBox span {
+    color: #5D666F;
+}
+
+.resultBox .resultAmount {
+    color: #18181B;
+    font-weight: 600;
+}
+
+.resultBox div {
+    margin-bottom: 24px;
+}
+
+.emiBox {
+    padding-top: 24px;
+    border-top: 1px solid #D9DBE5;
+}
+
+.resultDiv .button {
+    height: 60px;
+    font-size: 18px;
+    margin-top: 44px;
+}
+
+.resultDiv .chartBox {
+    height: 376px;
+}
+
+.chartBox div {
+    margin: auto;
+}
+
+.chartBox .highcharts-legend-box>g {
+    width: 300px !important;
+}
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {
+    .calculatorArea .dateArea {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .loanCalculatorFlex {
+        flex-direction: column;
+    }
+
+    .calculatorArea .dateArea {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .resultDiv {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .calculatorArea {
+        padding: 20px;
+    }
+
+    .rangeBox {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .calculatorArea h1 {
+        margin-bottom: 30px;
+    }
+
+    .loanCalculatorSection {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .calculatorArea h1 {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .calculatorArea {
+        padding: 5px;
+    }
+
+    .LoanBtn {
+        border-radius: 6px;
+        height: 44px;
+        margin-right: 5px;
+    }
+
+    .rangeBox .form-group>div {
+        flex-direction: column;
+    }
+
+    .amount-box {
+        margin-bottom: 20px;
+    }
+
+    .dateBox {
+        max-width: 100%;
+    }
+
+    .calculatorArea .dateArea {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .resultDiv {
+        padding: 5px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 424.98px) {}

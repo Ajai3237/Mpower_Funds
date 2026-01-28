@@ -1,0 +1,82 @@
+.lastMenu .rgstrBtns {
+    width: 150px;
+}
+
+.registersection {
+    padding-top: 107px;
+    background-image: url(../../assets/images/Background.png);
+    background-size: cover;
+}
+
+.registersection div,
+.registersection p {
+    color: var(--fontColor);
+}
+
+.registersection button {
+    background-color: transparent;
+}
+
+.registerSubmitButton {
+    min-width: 125px;
+    background-color: transparent;
+}
+
+.formflxReg {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.formflxReg .formRegBx {
+    flex: 1;
+    min-width: 45%;
+    max-width: 49%;
+}
+
+.formflxReg .formRegBx input,
+.formflxReg .formRegBx select {
+    height: 52px;
+    border: 1px solid #CCCCCC80;
+    backdrop-filter: blur(25px);
+}
+
+.formflxReg .formRegBx select {
+    background-image: url(../../assets/icons/area1.png);
+}
+
+.registerThankModal h1 {
+    font-size: 36px;
+}
+
+.registerThankModal .button {
+    background-color: transparent;
+    padding-left: 17px;
+    height: 40px;
+}
+
+.registerThankModal .button div {
+    width: 30px;
+    height: 30px;
+}
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 991.98px) {
+    .formflxReg {
+        flex-direction: column;
+    }
+    .formflxReg .formRegBx{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 767.98px) {}
+
+@media(max-width: 575.98px) {}
+
+@media(max-width: 424.98px) {}

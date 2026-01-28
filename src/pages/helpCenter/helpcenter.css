@@ -1,0 +1,197 @@
+.helpBanner .bannerBox {
+    margin-right: auto;
+    max-width: 715px;
+}
+
+.helpBanner .heading {
+    color: var(--bsColor11);
+}
+
+.helpBanner .container {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.applySection {
+    background-image: url(../../assets/images/helpBack.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.applyBox {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.applyBox:first-child {
+    border-right: 1px solid var(--bs-white);
+}
+
+.applyBox p {
+    margin: 30px 0;
+}
+
+.applyBox .button {
+    border-color: var(--bs-white);
+    width: 166px;
+    margin: auto;
+}
+
+.helpBanner .bannerImage {
+    transform: none;
+}
+
+.helpBanner .helpSearch {
+    border-radius: 30px;
+    border: 1px solid #9F9F9F;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    max-width: 578px;
+}
+
+.helpBanner .helpSearch label {
+    font-size: 20px;
+    color: var(--bsColor);
+}
+
+.helpBanner .helpSearch input {
+    width: 100%;
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+
+.supportSection {
+    padding: 100px 0;
+}
+
+.applySectionFaq {
+    padding-top: 120px;
+}
+
+.faqDivBox {
+    padding: 30px;
+    box-shadow: 0px 0px 24px 0px #0000001C;
+    background-color: var(--bs-white);
+    max-width: 421px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.faqDivBox h1 {
+    font-size: 20px;
+    color: var(--bsColor11);
+}
+
+.faqDivBox button {
+    font-size: 18px;
+    color: var(--fontColor);
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.faqQuestion {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+
+.faqAnswear {
+    color: var(--fontColor);
+}
+
+.faqAnswear svg {
+    color: var(--bsGreen1);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.faqAnswear li {}
+
+.supportSection {
+    background-image: url(../../assets/images/helpBack.png);
+    background-size: cover;
+}
+
+.supportSection .button {
+    width: 180px;
+    border: 1px solid var(--bs-white);
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* responsive */
+@media(max-width: 1399.98px) {
+    .applyBox .heading {
+        font-size: 40px;
+    }
+
+    .applyBox p {
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .helpBanner .bannerBox {
+        margin: auto;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .helpBanner .bannerImage {
+        margin: auto;
+        height: 300px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .applyBox {
+        padding: 20px 0;
+    }
+
+    .applyBox:first-child {
+        border-right: none;
+        border-bottom: 1px solid var(--bs-white);
+    }
+}
+
+@media(max-width: 767.98px) {
+    .applyBox .heading {
+        font-size: 35px;
+    }
+
+    .supportSection {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .helpBanner .helpSearch {
+        height: 40px;
+    }
+
+    .faqDivBox button {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 424.98px) {
+    .applyBox .heading {
+        font-size: 26px;
+    }
+}

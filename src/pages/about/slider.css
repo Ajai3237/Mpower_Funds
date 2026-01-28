@@ -1,0 +1,174 @@
+.historySlider {
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    padding: 100px 0;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+.aboutPageSlider {
+    margin-top: 40px;
+}
+
+.aboutPageSlider:after,
+.aboutPageSlider:before {
+    content: "";
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: -2px;
+    top: 0;
+    z-index: 3;
+    background-image: linear-gradient(90deg, #001F79 0%, rgba(0, 31, 121, 0.5) 48%, rgba(0, 31, 121, 0) 100%);
+}
+
+.aboutPageSlider:after {
+    right: -2px;
+    left: auto;
+    background-image: linear-gradient(270deg, #001F79 0%, rgba(0, 31, 121, 0.5) 48%, rgba(0, 31, 121, 0) 100%);
+}
+
+.timeline-line {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: #334C94;
+    z-index: 1;
+    top: 206px;
+}
+
+.historyData {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFBFF26;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 162px;
+}
+
+.historyData h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--bsGreen2);
+}
+
+.historyData.up {
+    transform: translateY(-80px);
+    border-bottom-left-radius: 0;
+}
+
+.historyData.down {
+    transform: translate(204px, -28px);
+    border-top-left-radius: 0;
+}
+
+.historyData .dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--bs-white);
+    border: 6px solid var(--bsGreen2);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.historyData.up .dot {
+    left: 0;
+    bottom: -46px;
+    transform: translate(-50%, -50%);
+}
+
+.historyData.down .dot {
+    top: -26px;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.historyData.up:before {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    background-image: url(../../assets/icons/angle.png);
+}
+
+.historyData.down:before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    background-image: url(../../assets/icons/angle1.png);
+}
+
+.swiper-scrollbar {
+    width: 100%;
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 7px;
+    border: 1px solid #C3C3C3;
+    padding: 4px;
+}
+
+.swiper-scrollbar-drag {
+    height: 6px;
+    border-radius: 3px;
+    background-color: var(--bsGreen2);
+}
+
+
+/* responsive */
+@media(max-width: 1399.98px) {
+    .historyData.down {
+        transform: translate(261px, -28px);
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .historyData.down {
+        transform: translate(216px, -28px);
+    }
+}
+
+@media(max-width: 991.98px) {
+    .historyData.down {
+        transform: translate(157px, -28px);
+    }
+}
+
+@media(max-width: 767.98px) {
+    .historySlider {
+        padding-left: 50px;
+    }
+
+    .historyData.down {
+        transform: translate(247px, -28px);
+    }
+}
+
+@media(max-width: 575.98px) {
+    .historyData {
+        width: 301px;
+    }
+
+    .historyData.down {
+        transform: translate(56%, -28px);
+    }
+}
+
+@media(max-width: 424.98px) {
+    .historyData {
+        width: auto;
+    }
+}

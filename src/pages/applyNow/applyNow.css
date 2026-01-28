@@ -1,0 +1,288 @@
+.navbDisc {
+    width: 167px;
+}
+
+.lastMenu .navbDisc {
+    width: 185px;
+}
+
+.lastmenu1 {
+    position: absolute;
+}
+
+.applyNowSection {
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.applyNowSection .progress {
+    max-width: 550px;
+    height: 5px;
+    border-radius: 3px;
+    margin: auto;
+    width: 100%;
+}
+
+.formAreaApply {
+    margin: auto;
+    text-align: center;
+}
+
+.applyNowSection .progress-bar {
+    background-color: var(--bsGreen3);
+    transition: width 0.5s ease-in-out;
+}
+
+.afterSubmit p,
+.applyAreaOnArea p {
+    max-width: 550px;
+    color: var(--fontColor);
+    margin: 20px auto;
+}
+
+.applyAreaInput {
+    text-align: start;
+    color: var(--fontColor);
+    width: 450px;
+    margin: auto;
+}
+
+.applyAreaInput select {
+    height: 52px;
+    font-size: 18px;
+}
+
+.applyAreaInput select {
+    background-image: url(../../assets/icons/area1.png);
+    background-size: auto;
+    margin-bottom: 30px;
+}
+
+.applyAreaInput label,
+.applyAreaInput select {
+    color: var(--fontColor);
+
+}
+
+.applyAreaInput .button {
+    background-color: transparent;
+}
+
+.applyAreaOnArea .headingApply {
+    color: var(--fontColor);
+}
+
+.applyLOader {
+    min-height: 300px;
+    transition: all 0.2s linear;
+}
+
+.applyAreaInput .range-slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background: #00b894;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.applyAreaInput .range-slider::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    background: #00b894;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.applyAreaInput .range-slider {
+    width: 100%;
+    height: 5px;
+    background: #D9D9D9;
+    outline: none;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.applyAreaInput .range-labels span {
+    font-weight: 500;
+    color: var(--fontColor);
+}
+
+.applyRadioBox {
+    height: 52px;
+    background-color: #FFFFFF80;
+    border: 1px solid #CCCCCC80;
+    backdrop-filter: blur(25px);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 0;
+    align-items: center;
+    font-size: 25px;
+    color: var(--bsGreen3);
+}
+
+.applyRadioBox svg {
+    visibility: hidden;
+}
+
+.applyRadioBox label {
+    color: var(--fontColor);
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.applyRadioBox:has(input[type="radio"]:checked) {
+    border: 1px solid var(--bsGreen3);
+    background-color: #ECFFF7;
+}
+
+.applyRadioBox:has(input[type="radio"]:checked) label {
+    color: var(--bsGreen3);
+}
+
+.applyRadioBox:has(input[type="radio"]:checked) svg {
+    visibility: visible;
+}
+
+.applyAreaInput .react-datepicker__year-select,
+.applyAreaInput .react-datepicker__month-select {
+    background-color: transparent;
+    background-image: none;
+    height: auto;
+    color: var(--bsGreen3);
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border: none;
+}
+
+.applyAreaInput h2.react-datepicker__current-month,
+.applyAreaInput .react-datepicker__day-name {
+    color: var(--bs-white);
+}
+
+.applyAreaInput .react-datepicker__day--keyboard-selected {
+    background-color: var(--bsColor11);
+    color: var(--bs-white);
+}
+
+.applyAreaInput .react-datepicker-wrapper {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.applyInputFormArea input,
+.applyAreaInput input,
+.applyAreaInput .react-datepicker__input-container input {
+    height: 52px;
+    border: 1px solid #CCCCCC80;
+    backdrop-filter: blur(25px);
+    background: #FFFFFF80;
+    border-radius: 6px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.applyInputFormArea {
+    margin-bottom: 30px;
+}
+
+.afterSubmit .button {
+    width: 185px;
+    margin: auto;
+}
+
+.afterApplyImage {
+    width: 362.7049255371094px;
+    margin: 20px auto;
+}
+
+.btnapl button {
+    flex: 1;
+}
+
+.bckBtnApl {
+    background-image: none;
+    color: var(--bsColor11);
+    border: 1px solid var(--bsColor11);
+}
+
+.bckBtnApl div {
+    background-color: transparent;
+    background-image: linear-gradient(0deg, #1F2E46 0%, #415474 100%);
+    color: var(--bs-white);
+}
+
+.bckBtnApl:hover {
+    background-image: linear-gradient(0deg, #1F2E46 0%, #415474 100%);
+    color: var(--bs-white);
+    border: 1px solid transparent;
+}
+
+.bckBtnApl:hover div {
+    background-color: var(--bs-white);
+    color: var(--bsColor11);
+    background-image: none;
+}
+
+.applyAreaInput textarea {
+    height: 110px;
+    resize: none;
+}
+
+.applyAreaInput .input-group-text {
+    color: var(--bs-white);
+    background-color: var(--bsColor);
+}
+
+.applyAreaInput input.range-slider {
+    padding: 0;
+}
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 991.98px) {
+    .applyNowSection {
+        margin-top: 170px;
+    }
+
+    .lastmenu1 {
+        position: static;
+        margin: auto;
+    }
+
+    .lastmenu1 .navbDisc {
+        margin: auto;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 767.98px) {}
+
+@media(max-width: 575.98px) {
+    .applyAreaInput {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .applyRadioBox {
+        margin-bottom: 10px;
+    }
+
+    .afterApplyImage {
+        width: 200px;
+    }
+}
+
+@media(max-width: 424.98px) {}

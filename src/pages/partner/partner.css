@@ -1,0 +1,190 @@
+.bePartnerSection {
+    margin-top: 0;
+}
+
+.bePartnerSection .partnerSAreas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.bePartnerSection .partnerSAreas>div {
+    width: 48%;
+}
+
+.bePartnerSection .partnerSAreas>div:last-child {
+    width: 100%;
+}
+
+.partnerSsectBanner {
+    padding-top: 170px;
+    padding-bottom: 100px;
+    background-image: url(../../assets/images/Background.png);
+    background-size: cover;
+}
+
+.partnerSsectBanner p {
+    font-size: 18px;
+    color: var(--bsColor11);
+}
+
+.partnerValueSection,
+.getstratedSection {
+    padding: 100px 0;
+    background-image: linear-gradient(180deg, #001F79 0%, #334C94 100%);
+}
+
+.getstratedSection .stepNumber {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--bsGreen1);
+    font-weight: 700;
+    font-variant-caps: var(--bs-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+
+.whyPartner .partnerSteps,
+.getstratedSection .partnerSteps {
+    flex: 1;
+}
+
+.getstratedSection .partnerSteps {
+    font-size: 18px;
+}
+
+.whyPartner {
+    padding: 100px 0;
+}
+
+.whyPartner svg {
+    color: var(--bsGreen1);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.prtStq1 .partnerSteps {
+    font-size: 22px;
+    caret-color: var(--bsColor11);
+    font-weight: 600;
+}
+
+.partvaluesBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.partnerVal {
+    background-color: #FBFBFF1A;
+    border: 2px solid var(--bs-white);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    padding: 26px;
+    text-align: center;
+    flex: 1;
+    min-width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.partnerVal:nth-child(6),
+.partnerVal:nth-child(1) {
+    background-image: url(../../assets/images/succb1.png);
+}
+
+.partnerVal:nth-child(7),
+.partnerVal:nth-child(2) {
+    background-image: url(../../assets/images/succb2.png);
+}
+
+.partnerVal:nth-child(3) {
+    background-image: url(../../assets/images/succb3.png);
+}
+
+.partnerVal:nth-child(4) {
+    background-image: url(../../assets/images/succb4.png);
+}
+
+.partnerVal:nth-child(8),
+.partnerVal:nth-child(5) {
+    background-image: url(../../assets/images/succb5.png);
+}
+
+.partnerVal .partssImg {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.partnerVal .partssImg img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.radioInp input[type=radio] {
+    height: 16px;
+}
+
+.partnerSsectBanner button {
+    background-color: transparent;
+}
+
+#partnerWithUs select,
+#partnerWithUs .form-select {
+    --bs-form-select-bg-img: url(../../assets/icons/area1.png);
+    background-image: url(../../assets/icons/area1.png);
+    background-size: auto;
+}
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 991.98px) {
+    .bePartnerSection .partnerSAreas>div {
+        width: 100%;
+    }
+
+    .partnerVal {
+        min-width: 50%;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .partnerSsectBanner {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    .partnerValueSection,
+    .whyPartner,
+    .getstratedSection {
+        padding: 50px 0;
+    }
+
+    .getstratedSection .partnerSteps,
+    .partnerSsectBanner p {
+        font-size: 16px;
+    }
+
+    .bePartnerSection {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .partnerVal .partssImg {
+        width: 50px;
+        height: 50px;
+    }
+}

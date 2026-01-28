@@ -1,0 +1,49 @@
+.prvacySection {
+    margin-top: 80px;
+    padding: 100px 0;
+}
+
+.prvacySection p {
+    color: var(--fontColor);
+}
+
+.privacyDivBox h1 {
+    color: var(--fontColor1);
+}
+
+.privacyDivBox li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.privacyDivBox li span {
+    color: var(--fontColor);
+    flex: 1;
+}
+
+.privacyDivBox li svg {
+    color: var(--bsGreen3);
+    margin-top: 3px;
+}
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 991.98px) {}
+
+@media(max-width: 767.98px) {
+    .prvacySection {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .prvacySection {
+        padding: 30px 0;
+    }
+}
+
+@media(max-width: 424.98px) {}

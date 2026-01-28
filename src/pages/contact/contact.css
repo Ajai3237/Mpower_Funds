@@ -1,0 +1,241 @@
+.contactSection {
+  margin-top: 107px;
+  padding: 100px 0;
+}
+
+.cotactForm {
+  max-width: 872px;
+  flex: 1;
+}
+
+.contactSection label,
+.contactSection p {
+  color: var(--fontColor);
+}
+
+.contactSection select,
+.contactSection textarea,
+.contactSection input {
+  height: 52px;
+  border: 1px solid #cccccc80;
+  backdrop-filter: blur(25px);
+  /* background: #FFFFFF80; */
+}
+
+.contactSection textarea {
+  height: 152px;
+  resize: none;
+}
+
+.contactSection .form-control::placeholder {
+  color: #838995;
+}
+
+.contactSection .button {
+  min-width: 125px;
+  background-color: transparent;
+}
+
+.contactAddress {
+  max-width: 395px;
+  width: 100%;
+}
+
+.contactctFlex {
+  gap: 20px;
+}
+
+.contactSection .contactAddress h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--bsColor);
+  margin: 20px 0;
+}
+
+.contactSection .contactAddressHead {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--bsColor11);
+  margin-top: 18px;
+}
+
+.contactAddress .addressDiv {
+  padding: 18px 0;
+  border-bottom: 1px solid #e6e9f5;
+}
+
+.addressDiv label {
+  color: var(--bsColor);
+}
+
+.contactAddress .addressDiv div,
+.contactAddress .addressDiv a {
+  color: var(--fontColor);
+}
+
+.sectionMap {
+  padding: 100px 0;
+  background-image: linear-gradient(180deg, #001f79 0%, #334c94 100%);
+}
+
+.sectionMapDesc {
+  max-width: 675px;
+  margin: auto;
+}
+
+.sectionMap .mapBox {
+  height: 469px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #ecf2ff;
+}
+
+.sectionMap .mapBox iframe {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: Luminosity;
+}
+
+.loanfaqSection {
+  padding: 100px 0;
+}
+
+.loanfaqSection .faqImgBox {
+  width: 551px;
+  height: 464px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.loanfaqSection .faqArea {
+  max-width: 714px;
+}
+
+.loanfaqSection p {
+  color: var(--fontColor);
+}
+
+.loanfaqSection .accordion-header button {
+  color: var(--bsColor11);
+  font-size: 18px;
+  padding-left: 0;
+  height: 65px;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.loanfaqSection .accordion-button:not(.collapsed),
+.loanfaqSection .accordion-header button {
+  background-color: transparent;
+}
+
+.loanfaqSection .accordion-item {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ababab;
+}
+
+.loanfaqSection .accordion-body {
+  padding: 0;
+  padding-bottom: 12px;
+}
+
+.loanfaqSection .accordion-button::after {
+  background-image: none;
+  content: "+";
+  transition: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: var(--bsColor);
+  font-weight: 800;
+}
+
+.loanfaqSection .accordion-button:not(.collapsed)::after {
+  content: "-";
+  rotate: 0;
+  transition: none;
+  background-image: none;
+}
+
+/* responsive */
+@media (max-width: 1399.98px) {
+  .loanfaqSection .faqImgBox {
+    width: 473px;
+    height: 405px;
+  }
+
+  .loanfaqSection .faqArea {
+    max-width: 610px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .loanfaqSection .faqArea {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .loanfaqSection .faqImgBox {
+    width: 551px;
+    height: 464px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contactSection {
+    padding: 50px 0;
+  }
+
+  .contactAddress {
+    max-width: 100%;
+  }
+
+  .sectionMap .mapBox {
+    height: 359px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .loanfaqSection .faqImgBox {
+    width: 520px;
+    height: 450px;
+  }
+
+  .loanfaqSection {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .contactSection {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .contactSection select,
+  .contactSection input {
+    height: 40px;
+  }
+
+  .contactSection textarea {
+    height: 100px;
+  }
+
+  .sectionMap {
+    padding: 50px 0;
+  }
+
+  .sectionMap .mapBox {
+    height: 269px;
+  }
+  .loanfaqSection .faqImgBox {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 424.98px) {
+}

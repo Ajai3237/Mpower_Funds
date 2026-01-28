@@ -1,0 +1,59 @@
+.errorSection {
+    margin-top: 80px;
+    padding: 100px 0;
+}
+
+.errorSection h1 {
+    font-size: 200px;
+    position: relative;
+}
+
+.errorSection h1:before {
+    content: "404";
+    position: absolute;
+    font-size: 400px;
+    font-weight: 900;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #b8b8b8bd;
+    z-index: -1;
+}
+
+.errorSection p {
+    color: var(--fontColor);
+}
+
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 991.98px) {}
+
+@media(max-width: 767.98px) {
+    .errorSection {
+        padding: 50px 0;
+    }
+
+    .errorSection h1:before {
+        font-size: 250px;
+    }
+
+    .errorSection h1 {
+        font-size: 100px;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .errorSection h1:before {
+        font-size: 150px;
+    }
+
+    .errorSection h1 {
+        font-size: 75px;
+    }
+}
+
+@media(max-width: 424.98px) {}

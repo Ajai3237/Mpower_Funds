@@ -1,0 +1,357 @@
+.loanBck {
+  mix-blend-mode: luminosity;
+}
+
+.loanPageBanner .button {
+  width: 215px;
+  background-color: transparent;
+}
+
+.loanPageBanner select {
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid #9f9f9f;
+  backdrop-filter: blur(1px);
+  background-color: transparent;
+  padding: 12px 20px;
+  background-image: none;
+}
+
+.loanPageBanner select option:hover {
+  background-color: var(--bsColor);
+}
+
+.loanPageBanner .bannerImage {
+  transform: translate(-32%, 0);
+  padding-bottom: 30px;
+}
+
+.LoanBanner2 {
+  padding: 70px 0;
+}
+
+.LoanBanner2 h1 {
+  font-size: 28px;
+  color: var(--fontColor);
+  margin-top: 30px;
+}
+
+.LoanBanner2 .loanPoints {
+  max-width: 395px;
+}
+
+.LoanBanner2 .pointsImgBox {
+  width: 75px;
+  height: 75px;
+}
+
+.questionAnswearPart {
+  padding: 100px 0;
+  background-image: url(../../assets/images/loanBack2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questionAnswearPart .qaBox {
+  max-width: 520px;
+}
+
+.questionAnswearPart .loanHeading1 {
+  margin: 20px 0;
+  color: var(--bsGreen2);
+}
+
+.questionAnswearPart .qaImg {
+  width: 692px;
+  height: 532px;
+  padding-left: 74px;
+  padding-right: 92px;
+}
+
+.questionAnswearPart .qaImg .mainImg {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.questionAnswearPart .qaImg .leftImg {
+  left: 0;
+  bottom: 0;
+  animation: loanImg 16s linear infinite;
+}
+
+.questionAnswearPart .qaImg .rightImg {
+  right: 0;
+  top: 0;
+  animation: loanImg 16s linear 8s infinite;
+}
+
+@keyframes loanImg {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, 35px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.loanfaqSection {
+  padding: 100px 0;
+}
+
+.loanfaqSection .faqImgBox {
+  width: 551px;
+  height: 464px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.loanfaqSection .faqArea {
+  max-width: 714px;
+}
+
+.loanfaqSection p {
+  color: var(--fontColor);
+}
+
+.loanfaqSection .accordion-header button {
+  color: var(--bsColor11);
+  font-size: 18px;
+  padding-left: 0;
+  height: 65px;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.loanfaqSection .accordion-button:not(.collapsed),
+.loanfaqSection .accordion-header button {
+  background-color: transparent;
+}
+
+.loanfaqSection .accordion-item {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ababab;
+}
+
+.loanfaqSection .accordion-body {
+  padding: 0;
+  padding-bottom: 12px;
+}
+
+.loanfaqSection .accordion-button::after {
+  background-image: none;
+  content: "+";
+  transition: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: var(--bsColor);
+  font-weight: 800;
+}
+
+.loanfaqSection .accordion-button:not(.collapsed)::after {
+  content: "-";
+  rotate: 0;
+  transition: none;
+  background-image: none;
+}
+
+.checkLoan {
+  padding: 100px 0;
+  background-image: url(../../assets/images/checkLoan.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkLoan h1 {
+  text-align: center;
+}
+
+.checkLoan .button {
+  width: 215px;
+  margin: 30px auto;
+  border-color: var(--bs-white);
+}
+
+/* responsive */
+@media (max-width: 1399.98px) {
+  .bannerSection .container {
+    padding-top: 20px;
+  }
+
+  .loanfaqSection .faqImgBox {
+    width: 473px;
+    height: 405px;
+  }
+
+  .loanfaqSection .faqArea {
+    max-width: 610px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .loanPageBanner .bannerImage {
+    transform: translate(30%, 0);
+    padding-bottom: 0px;
+  }
+
+  .loanPageBanner .bannerBox {
+    margin-bottom: 455px;
+  }
+
+  .loanPagePolicy .setsBack {
+    width: 385px;
+  }
+
+  .LoanBanner2 .loanPoints {
+    max-width: 275px;
+  }
+
+  .questionAnswearPart .qaBox {
+    max-width: 100%;
+  }
+
+  .loanfaqSection .faqArea {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .loanfaqSection .faqImgBox {
+    width: 551px;
+    height: 464px;
+    margin: auto;
+  }
+
+  .checkLoan h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .loanPagePolicy .setsBack {
+    width: 290px;
+  }
+
+  .loanPageBanner .bannerImage {
+    width: 500px;
+    transform: translate(25%, 0);
+  }
+
+  .loanPageBanner .bannerBox {
+    margin-bottom: 320px;
+  }
+
+  .LoanBanner2 .d-flex {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .loanPagePolicy .setsBack {
+    width: 215px;
+  }
+
+  .loanPageBanner .bannerImage {
+    transform: translate(0%, 0);
+  }
+
+  .questionAnswearPart .qaImg {
+    width: 530px;
+    height: 364px;
+  }
+
+  .questionAnswearPart .qaImg .rightImg {
+    width: 180px;
+  }
+
+  .questionAnswearPart .qaImg .leftImg {
+    width: 200px;
+  }
+
+  .loanfaqSection .faqImgBox {
+    width: 520px;
+    height: 450px;
+  }
+
+  .loanfaqSection {
+    padding: 50px 0;
+  }
+
+  .checkLoan h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .loanPagePolicy .setsBack img:first-child {
+    height: auto;
+    filter: grayscale(1);
+  }
+
+  .loanPageBanner .bannerImage {
+    width: 300px;
+    bottom: 0;
+  }
+
+  .loanPageBanner .bannerBox {
+    margin-bottom: 156px;
+  }
+
+  .LoanBanner2 {
+    padding: 40px 0;
+  }
+
+  .LoanBanner2 h1 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .LoanBanner2 .pointsImgBox {
+    width: 50px;
+    height: 50px;
+  }
+
+  .questionAnswearPart .qaImg {
+    width: 320px;
+    height: 270px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .questionAnswearPart .qaImg .rightImg {
+    width: 100px;
+  }
+
+  .questionAnswearPart .qaImg .leftImg {
+    width: 150px;
+  }
+
+  .questionAnswearPart {
+    padding: 50px 0;
+  }
+
+  .loanfaqSection .faqImgBox {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 424.98px) {
+  .questionAnswearPart .qaImg {
+    width: 300px;
+    height: 235px;
+  }
+
+  .checkLoan {
+    padding: 50px 0;
+  }
+}

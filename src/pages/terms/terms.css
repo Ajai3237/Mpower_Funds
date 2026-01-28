@@ -1,0 +1,51 @@
+.tersSection {
+    margin-top: 87px;
+    padding: 100px 0;
+}
+
+.updatesOn {
+    color: var(--bsColor11);
+}
+
+.tersSection p {
+    color: var(--fontColor);
+}
+
+.termsHead {
+    color: var(--bsColor);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.termsBox {
+    padding: 20px 0;
+}
+
+.termsBox li span {
+    flex: 1;
+    color: var(--fontColor);
+    margin-bottom: 8px;
+}
+
+.termsBox svg {
+    color: var(--bsGreen3);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+/* responsive */
+@media(max-width: 1399.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 991.98px) {}
+
+@media(max-width: 767.98px) {
+    .tersSection {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 575.98px) {}
+
+@media(max-width: 424.98px) {}

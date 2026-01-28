@@ -1,0 +1,188 @@
+.blogTopArea {
+  margin-top: 107px;
+  padding: 100px 0;
+}
+
+.blogBannerBox .banImgBlog {
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.blogBannerText {
+  width: 813px;
+  height: 330px;
+  left: 50px;
+  padding: 24px;
+  bottom: -69px;
+  box-shadow: 0px 14px 54px 0px #0000000d;
+  backdrop-filter: blur(54px);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffffd9;
+}
+
+.blogBannerText h1 {
+  margin: 30px 0;
+}
+
+.blogtag {
+  background-color: var(--bsGreen3);
+  padding: 4px 10px;
+  border-radius: 7px;
+}
+
+.date {
+  color: var(--fontColor);
+}
+
+.popularBlog {
+  padding-top: 100px;
+}
+
+.popularBlog .newsArea {
+  padding: 0;
+  padding-top: 35px;
+}
+
+.popularBlog .NewsBox {
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.blogPageChck .button {
+  width: 208px;
+}
+
+.loansOnBlog {
+  padding-top: 100px;
+}
+
+.buttonBlogBox {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 48px;
+}
+
+.buttonBlogBox button {
+  font-size: 24px;
+  color: #b3b3b3;
+  background: transparent;
+  border: none;
+  padding: 25px 0;
+}
+
+.buttonBlogBox .active {
+  color: var(--bs-black);
+}
+
+.blogBox .blogTopArea {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.checkLoan {
+  padding: 100px 0;
+  background-image: url(../../assets/images/checkLoan.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkLoan h1 {
+  text-align: center;
+}
+
+.checkLoan .button {
+  width: 215px;
+  margin: 30px auto;
+  border-color: var(--bs-white);
+}
+
+/* responsive */
+@media (max-width: 1399.98px) {
+  .popularBlog .NewsBox {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .popularBlog .NewsBox {
+    width: 300px;
+  }
+
+  .buttonBlogBox {
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    border-bottom: none;
+  }
+
+  .buttonBlogBox button {
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .checkLoan h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .blogBannerText {
+    width: 90%;
+    left: 5%;
+    height: auto;
+    bottom: -150px;
+  }
+
+  .popularBlog {
+    padding-top: 200px;
+  }
+
+  .popularBlog .newsArea {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .popularBlog .NewsBox {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .popularBlog .newsImgBox {
+    height: 265px;
+  }
+
+  .buttonBlogBox button {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .blogTopArea {
+    padding: 50px 0;
+    padding-top: 20px;
+  }
+
+  .blogBannerBox .banImgBlog {
+    height: 450px;
+  }
+  .checkLoan h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .blogBannerText h1 {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 424.98px) {
+  .checkLoan {
+    padding: 50px 0;
+  }
+}

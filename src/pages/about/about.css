@@ -1,0 +1,468 @@
+.aboutSlider {
+    padding: 100px 0;
+    background-color: var(--colorBlue);
+}
+
+.bannerSection {
+    background-image: url(../../assets/images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 107px;
+}
+
+.bannerSection .container {
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.bannerSection .bannerBox {
+    margin-left: auto;
+    width: 734px;
+}
+
+.bannerSection .bannerBox .bannerDescription {
+    margin: 30px 0;
+    color: var(--fontColor);
+}
+
+.bannerSection .dataBox {
+    margin-bottom: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.bannerSection .dataBox p {
+    color: var(--bsColor);
+}
+
+.bannerSection .dataHead {
+    color: var(--fontColor);
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.bannerSection a {
+    width: 172px;
+}
+
+.bannerSection .bannerImage {
+    left: 0;
+    bottom: 0;
+    transform: translate(-25%, 0);
+}
+
+.teamBox {
+    max-width: 395px;
+    margin-top: 30px;
+}
+
+.imagBox {
+    width: 100%;
+    height: 422px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.teamName {
+    font-size: 22px;
+    color: var(--bsColor11);
+    margin: 15px 0;
+}
+
+.aourTeam {
+    padding: 100px 0;
+}
+
+.teamBoxes {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.successSection {
+    padding: 100px 0;
+    background-image: linear-gradient(180deg, #001F79 0%, #334C94 100%);
+}
+
+.successSection h1 {
+    max-width: 645px;
+    margin: auto;
+}
+
+.successSection p {
+    padding: 0;
+    max-width: 675px;
+    margin: 34px auto;
+}
+
+
+.successSection .gridData {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+}
+
+.successBox {
+    background-color: #FBFBFF1A;
+    border: 2px solid var(--bs-white);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    padding: 26px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.successBox:nth-child(2) {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.successBox .icon {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.successBox.success0 {
+    background-image: url(../../assets/images/succb1.png);
+    grid-column: 1 / 3;
+}
+
+.successBox.success1 {
+    background-image: url(../../assets/images/succb2.png);
+    grid-column: 3 / 5;
+}
+
+
+.successBox.success2 {
+    background-image: url(../../assets/images/succb3.png);
+    grid-column: 5/7;
+}
+
+.successBox.success3 {
+    background-image: url(../../assets/images/succb4.png);
+    grid-column: 1 / 3;
+}
+
+.successBox.success4 {
+    background-image: url(../../assets/images/succb5.png);
+    grid-column: 5/7;
+}
+
+.successBox.success5 {
+    background-image: url(../../assets/images/succb3.png);
+    grid-column: 1 / 4;
+}
+
+.successBox.success6 {
+    background-image: url(../../assets/images/succb1.png);
+    grid-column: 4 / 7;
+}
+
+.ca-About .success0,
+.ca-About .success2 {
+    grid-column: 1 / 4;
+}
+
+.ca-About .success1 {
+    grid-row: 1;
+}
+
+.ca-About .success1,
+.ca-About .success3 {
+    grid-column: 4 /7;
+}
+
+.aboutValue {
+    padding-top: 107px;
+}
+
+.aboutValue .button {
+    min-width: 178px;
+    background-color: transparent;
+}
+
+.aiCoachModal .modal-dialog {
+    max-width: 80%;
+}
+
+.aiCoachModal form {
+    box-shadow: 0px 0px 24px 0px #0000001C;
+    background-color: var(--bs-white);
+    padding: 15px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.aiCoachModal .mfData {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.mfData .frmBx {
+    min-width: 40%;
+    flex: 1;
+}
+
+.mfData .frmBx:last-child {
+    width: 100%;
+    min-width: 100%;
+}
+
+.aiCoachModal textarea {
+    height: 100px;
+    resize: none;
+    border: 1px solid #CCCCCC80;
+    backdrop-filter: blur(25px);
+    background: #FFFFFF80;
+}
+
+.aiCoachModal input {
+    height: 52px;
+    border: 1px solid #CCCCCC80;
+    backdrop-filter: blur(25px);
+    background: #FFFFFF80;
+}
+
+.aiCoachModal .button {
+    background-color: transparent;
+    min-width: 124px;
+}
+
+.aiCoachModal .button:disabled {
+    color: var(--bsColor11);
+}
+
+.modUl li svg {
+    color: var(--bsGreen1);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+
+.stampBox {
+    width: 200px;
+    animation: stamp 1.5s linear infinite;
+}
+
+@keyframes stamp {
+    0% {
+        width: 200px;
+        rotate: 0deg;
+    }
+
+
+
+    50% {
+        width: 150px;
+        rotate: 45deg;
+    }
+
+
+    100% {
+        width: 200px;
+        rotate: 0deg;
+    }
+
+
+}
+
+/* responsive */
+
+@media (min-width: 992px) {
+
+    .navbar-expand-xxl .navbar-nav,
+    .navbar-expand-lg .navbar-nav {
+        flex: 1;
+    }
+}
+
+@media(max-width: 1399.98px) {
+    .bannerSection .bannerBox {
+        margin-left: auto;
+        width: 600px;
+    }
+
+    .aboutBannerArea .bannerImage {
+        width: 620px;
+        transform: translate(-18%, 0);
+    }
+
+    .aboutBannerArea .container {
+        padding-top: 25px;
+    }
+
+    .teamBox {
+        max-width: 350px;
+    }
+
+    .imagBox {
+        height: 373px;
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .bannerSection .bannerBox {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 250px;
+    }
+
+    .aboutBannerArea .bannerImage {
+        left: 49%;
+    }
+
+    .aboutValue .setsBack {
+        transform: translateX(50%);
+    }
+
+    .teamBox {
+        max-width: 290px;
+    }
+
+    .imagBox {
+        height: 310px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .aboutBannerArea .bannerImage {
+        width: 480px;
+        transform: translate(-45%, 0);
+    }
+
+    .teamBox {
+        max-width: 215px;
+        margin-top: 10px;
+    }
+
+    .imagBox {
+        height: 230px;
+    }
+
+    .teamName {
+        margin: 10px 0;
+        font-size: 20px
+    }
+
+    .successSection .gridData {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .successBox:nth-child(2) {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+
+    .successBox.success0,
+    .successBox.success1,
+    .successBox.success2,
+    .successBox.success3,
+    .successBox.success4,
+    .successBox.success6,
+    .successBox.success5 {
+        grid-column: 1 / 3;
+    }
+
+    .stamp1 {
+        min-height: 150px;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .aboutBannerArea .bannerImage {
+        transform: translate(-40%, 0);
+    }
+
+    .aiCoachModal .mfData {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .aboutBannerArea .bannerImage {
+        transform: translate(-50%, 0);
+        width: 360px;
+    }
+
+    .bannerSection .bannerBox {
+        margin-bottom: 220px;
+    }
+
+    .aboutValue .setsList {
+        padding-bottom: 170px;
+    }
+
+    .aboutValue .setsBack {
+        transform: translateX(25%);
+    }
+
+    .teamBox {
+        max-width: 150px;
+        font-size: 14px;
+    }
+
+    .imagBox {
+        height: 150px;
+    }
+
+    .teamName {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .aourTeam {
+        padding: 40px 0;
+    }
+
+    .successSection .gridData {
+        grid-template-columns: 1fr;
+    }
+
+    .successBox {
+        min-height: 200px;
+    }
+
+    .successBox .icon {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .aiCoachModal .modal-dialog {
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .aiCoachModal form {
+        padding: 10px;
+    }
+
+}
+
+@media(max-width: 424.98px) {
+    .aboutBannerArea .bannerImage {
+        width: 300px;
+    }
+
+    .bannerSection .bannerBox {
+        margin-bottom: 180px;
+    }
+
+    .aboutValue .setsBack {
+        transform: translateX(0%);
+    }
+}

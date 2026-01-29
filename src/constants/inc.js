@@ -1445,18 +1445,18 @@ export const incData = {
             },
           ],
         },
-        {
-          heading: "Funding related query",
-          contact: [
-            {
-              as: "link",
-              type: "email",
-              icon: AiOutlineMail,
-              label: "info@mpowerfunds.com",
-              path: "info@mpowerfunds.com",
-            },
-          ],
-        },
+        // {
+        //   heading: "Funding related query",
+        //   contact: [
+        //     {
+        //       as: "link",
+        //       type: "email",
+        //       icon: AiOutlineMail,
+        //       label: "info@mpowerfunds.com",
+        //       path: "info@mpowerfunds.com",
+        //     },
+        //   ],
+        // },
         {
           heading: "General query",
           contact: [
@@ -1469,18 +1469,18 @@ export const incData = {
             },
           ],
         },
-        {
-          heading: "Partner with us",
-          contact: [
-            {
-              as: "link",
-              type: "email",
-              icon: AiOutlineMail,
-              label: "info@mpowerfunds.com",
-              path: "info@mpowerfunds.com",
-            },
-          ],
-        },
+        // {
+        //   heading: "Partner with us",
+        //   contact: [
+        //     {
+        //       as: "link",
+        //       type: "email",
+        //       icon: AiOutlineMail,
+        //       label: "info@mpowerfunds.com",
+        //       path: "info@mpowerfunds.com",
+        //     },
+        //   ],
+        // },
         {
           heading: "Still have questions?",
           contact: [

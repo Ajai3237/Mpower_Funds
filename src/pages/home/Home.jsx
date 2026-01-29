@@ -637,8 +637,8 @@ const Home = () => {
                   </li>
                 ))}
               </ul>
-             <Link
-  to="/contact"
+            <Link
+  to={`${basePath}/contact`}
   className="button justify-content-end text-white border-white border"
 >
   {data.steps.buttonText}
@@ -646,6 +646,7 @@ const Home = () => {
     <FaArrowRight />
   </div>
 </Link>
+
 
             </div>
             <div className="stepFlow d-flex align-items-center justify-content-center">
